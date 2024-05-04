@@ -7,7 +7,7 @@ app.static_folder = 'static'  # Configure Flask to serve static files from the '
 
 # AWS credentials and region
 AWS_REGION = 'us-east-1'
-AWS_CUSTOM_MODEL_ARN = 'arn:aws:rekognition:us-east-1:058264217533:project/BreedIdentifier/version/BreedIdentifier.2024-04-27T11.45.12/1714198515365'
+AWS_CUSTOM_MODEL_ARN = ''//your model arn
 
 # Initialize Boto3 client without credentials
 rekognition = boto3.client('rekognition', region_name=AWS_REGION)
